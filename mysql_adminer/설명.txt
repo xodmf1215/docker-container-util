@@ -1,0 +1,11 @@
+Where to Store Data
+
+윈도우 운영체제기 때문에 파일시스템? 차이로 2번 못하는걸로 알고있음
+1. Let Docker manage the storage of your database data by writing the database files to disk on the host system using its own internal volume management.
+
+2.Create a data directory on the host system (outside the container) and mount this to a directory visible from inside the container.
+
+1번 방법을 채택
+
+/var/lib/mysq 는 MySQL by default will write its data files
+
