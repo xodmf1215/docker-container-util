@@ -1,3 +1,6 @@
+실행 명령어
+docker compose up
+
 Where to Store Data
 
 윈도우 운영체제기 때문에 파일시스템? 차이로 2번 못하는걸로 알고있음
